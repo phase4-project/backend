@@ -33,7 +33,7 @@ car3 = Car.create(
     horsepower: '621 Horsepower',
     time: 2.8,
     price: '213,000',
-    image: 'https://i.pinimg.com/originals/e9/ee/ef/e9eeef45563901f2d03af25181ff66b0.jpg'
+    image: 'https://lvcexotics.com/wp-content/uploads/DSC08625-removebg.png'
 )
 
 car4 = Car.create(
@@ -63,7 +63,7 @@ car6 = Car.create(
     horsepower: '621 Horsepower',
     time: 2.8,
     price: '213,000',
-    image: 'https://i.pinimg.com/originals/e9/ee/ef/e9eeef45563901f2d03af25181ff66b0.jpg'
+    image: 'https://lvcexotics.com/wp-content/uploads/DSC08625-removebg.png'
 )
 
 car7 = Car.create(
@@ -93,5 +93,5 @@ car9 = Car.create(
     horsepower: '621 Horsepower',
     time: 2.8,
     price: '213,000',
-    image: 'https://i.pinimg.com/originals/e9/ee/ef/e9eeef45563901f2d03af25181ff66b0.jpg'
+    image: 'https://lvcexotics.com/wp-content/uploads/DSC08625-removebg.png'
 )
