@@ -6,6 +6,16 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+# admin1 = Admin.create(
+#     username: 'test',
+#     password: 'test'
+# )
+
+# user1 = User.create(
+#     username: 'test',
+#     password: 'test'
+# )
+
 car1 = Car.create(
     make: 'Lamborghini',
     model: 'Huracan Evo Spyder',
