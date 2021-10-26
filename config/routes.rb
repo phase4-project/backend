@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   resources :wishlists
   resources :favorites
   resources :reviews
-  resources :admins
   resources :users
   resources :cars
   post '/login', to: 'session#create'

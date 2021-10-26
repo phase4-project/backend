@@ -8,6 +8,10 @@ class ApplicationController < ActionController::API
     @current_user ||= session[:user_id] && User.find_by_id(session[:user_id])
   end
 
+  def current_admin
+    @current_admin ||= session[:admin_id] && Admin.find_by_id(session[:admin_id])
+  end
+
   def confirm_authentication
     render json: { error: "You must be logged in to do that."}, status: :unauthorized unless current_user
   end

@@ -1,5 +1,6 @@
 class SessionController < ApplicationController
-skip_before_action :confirm_authentication, only: [:create]
+skip_before_action :confirm_authentication, only: [:create, :create_admin]
+
   def create
     user = User.find_by_username(params[:username])
     if user&.authenticate(params[:password])
